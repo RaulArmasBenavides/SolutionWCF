@@ -16,7 +16,7 @@ namespace Servicio.AppWind
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmAppellant());
+            Application.Run(new CalculadoraView());
         }
     }
 }
