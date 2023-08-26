@@ -56,12 +56,6 @@
     <Compile Include="CalculadoraView.Designer.cs">
       <DependentUpon>CalculadoraView.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAppellant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmAppellant.Designer.cs">
-      <DependentUpon>FrmAppellant.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\ProxyWCF\Reference.cs">
@@ -71,9 +65,6 @@
     </Compile>
     <EmbeddedResource Include="CalculadoraView.resx">
       <DependentUpon>CalculadoraView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmAppellant.resx">
-      <DependentUpon>FrmAppellant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
