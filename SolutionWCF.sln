@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31829.152
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicioWCF", "ServicioWCF", "{C4CDBD60-E020-43F4-B122-3D0DF97F553A}"
 EndProject
@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicio.AppWind", "Servici
 	ProjectSection(ProjectDependencies) = postProject
 		{EF7F4257-C306-4C97-8F1F-B1354B76B160} = {EF7F4257-C306-4C97-8F1F-B1354B76B160}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraASPClient", "CalculadoraASPClient\CalculadoraASPClient.csproj", "{9A8EF74A-0886-4667-A7C9-EABEC1AC240D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +30,10 @@ Global
 		{0D687B81-E776-4499-A141-B694C20A53FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D687B81-E776-4499-A141-B694C20A53FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D687B81-E776-4499-A141-B694C20A53FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8EF74A-0886-4667-A7C9-EABEC1AC240D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8EF74A-0886-4667-A7C9-EABEC1AC240D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8EF74A-0886-4667-A7C9-EABEC1AC240D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8EF74A-0886-4667-A7C9-EABEC1AC240D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +41,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EF7F4257-C306-4C97-8F1F-B1354B76B160} = {C4CDBD60-E020-43F4-B122-3D0DF97F553A}
 		{0D687B81-E776-4499-A141-B694C20A53FC} = {73393DD7-90A9-495F-A10D-FAE90F880B14}
+		{9A8EF74A-0886-4667-A7C9-EABEC1AC240D} = {73393DD7-90A9-495F-A10D-FAE90F880B14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6677CF5-55E9-4624-936F-3B4CA30D481F}

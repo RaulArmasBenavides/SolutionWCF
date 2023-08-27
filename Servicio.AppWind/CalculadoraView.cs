@@ -12,7 +12,9 @@ using Servicio.AppWind.ProxyWCF;
 namespace Servicio.AppWind
 {
     public partial class CalculadoraView : Form
-    {
+    {    
+        //crear objeto de la clase Calculadora del servicio
+        CalculadoraClient obj = new CalculadoraClient();
         public CalculadoraView()
         {
             InitializeComponent();
@@ -48,8 +50,6 @@ namespace Servicio.AppWind
         {
             Dispose();
         }
-        //crear objeto de la clase Calculadora del servicio
-        CalculadoraClient obj = new CalculadoraClient();
 
         private void procesar(int opcion)
         {
@@ -68,6 +68,12 @@ namespace Servicio.AppWind
                 case 4:
                     res = obj.Dividir(decimal.Parse(txtNum1.Text), decimal.Parse(txtNum2.Text));
                     break;
+                case 5:
+                    res = ((decimal)obj.raiz(Convert.ToDecimal(txtNum1.Text), decimal.Parse(txtNum2.Text)));
+                    break;
+                case 6:
+                    res = ((decimal)obj.cuadrado(int.Parse(txtNum1.Text), int.Parse(txtNum2.Text)));
+                    break;
             }
             txtResultado.Text = res.ToString();
         }
@@ -77,5 +83,14 @@ namespace Servicio.AppWind
 
         }
 
+        private void btn_sqrt_Click(object sender, EventArgs e)
+        {
+            procesar(5);
+        }
+
+        private void btn_cuadrado_Click(object sender, EventArgs e)
+        {
+            procesar(6);
+        }
     }
 }

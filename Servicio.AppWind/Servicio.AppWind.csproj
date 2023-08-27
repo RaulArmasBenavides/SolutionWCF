@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apellant.cs" />
     <Compile Include="CalculadoraView.cs">
       <SubType>Form</SubType>
     </Compile>

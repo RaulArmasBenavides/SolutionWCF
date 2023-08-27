@@ -19,6 +19,10 @@ namespace Servicio.Matematica
 
         [OperationContract]
         decimal Dividir(decimal x, decimal y);
+        [OperationContract]
+        double cuadrado(int x, int y);
+        [OperationContract]
+        double raiz(decimal x, decimal y);
 
         #endregion
 
