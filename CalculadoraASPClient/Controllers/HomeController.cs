@@ -33,5 +33,11 @@ namespace CalculadoraASPClient.Controllers
 
             return View();
         }
+        public ActionResult inicio()
+        {
+            ViewBag.Message = "Este es mi nueva pantalla de inicio";
+
+            return View();
+        }
     }
 }
