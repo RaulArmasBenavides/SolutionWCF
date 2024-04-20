@@ -4,7 +4,7 @@ namespace Servicio.Matematica
 {
     public class Calculadora : ICalculadora
     {
-       #region Metodos del Contrato
+        #region Metodos del Contrato
         public decimal Dividir(decimal x, decimal y)
         {
             return x / y;

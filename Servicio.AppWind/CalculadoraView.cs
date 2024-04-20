@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Servicio.AppWind.ProxyWCF;
+using System;
 using System.Windows.Forms;
-using Servicio.AppWind.ProxyWCF;
 
 namespace Servicio.AppWind
 {
     public partial class CalculadoraView : Form
-    {    
+    {
         //crear objeto de la clase Calculadora del servicio
         CalculadoraClient obj = new CalculadoraClient();
         public CalculadoraView()
